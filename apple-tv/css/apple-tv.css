@@ -40,6 +40,22 @@
           box-sizing: content-box;
   margin-top: 15px;
 }
+.apple-list-horizontal .apple-cat {
+  margin-top: 10px;
+  color: rgb(134, 133, 138);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.apple-list-horizontal .apple-title {
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+}
+.apple-list-horizontal .apple-content {
+  font-size: 16px;
+  color: rgb(136, 135, 141);
+}
 .apple-list-horizontal .apple-card-circle {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -60,6 +76,13 @@
   list-style: none;
   margin-right: 3%;
   padding: 15px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
 }
 .apple-list-horizontal .apple-card-circle li a {
   width: 140px;
@@ -97,6 +120,13 @@
   min-width: 300px;
   margin-right: 3%;
   padding: 15px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
 }
 .apple-list-horizontal .apple-card-image img {
   -webkit-box-shadow: 0 4px 7px rgba(0, 0, 0, 0.25);
