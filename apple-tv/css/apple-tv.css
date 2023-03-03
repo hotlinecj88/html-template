@@ -12,6 +12,57 @@
           transform: rotate(-45deg);
 }
 
+.apple-button {
+  font-weight: 600;
+  border-radius: 8px;
+  background: white;
+  outline: none;
+  width: 220px;
+  padding: 10px 16px;
+  font-size: 18px;
+  border: none;
+  position: relative;
+  z-index: 1;
+}
+
+.apple-blur {
+  display: block;
+  -webkit-backdrop-filter: saturate(190%) blur(60px);
+          backdrop-filter: saturate(190%) blur(60px);
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(3.3%, rgba(0, 0, 0, 0.068)), color-stop(5.9%, rgba(0, 0, 0, 0.145)), color-stop(8.1%, rgba(0, 0, 0, 0.227)), color-stop(10.1%, rgba(0, 0, 0, 0.313)), color-stop(12.1%, rgba(0, 0, 0, 0.401)), color-stop(14.6%, rgba(0, 0, 0, 0.49)), color-stop(17.7%, rgba(0, 0, 0, 0.578)), color-stop(21.8%, rgba(0, 0, 0, 0.661)), color-stop(27.1%, rgba(0, 0, 0, 0.74)), color-stop(33.9%, rgba(0, 0, 0, 0.812)), color-stop(42.4%, rgba(0, 0, 0, 0.875)), color-stop(53%, rgba(0, 0, 0, 0.927)), color-stop(66%, rgba(0, 0, 0, 0.966)), color-stop(81.5%, rgba(0, 0, 0, 0.991)), to(rgba(0, 0, 0, 0.991)));
+  -webkit-mask-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.068) 3.3%, rgba(0, 0, 0, 0.145) 5.9%, rgba(0, 0, 0, 0.227) 8.1%, rgba(0, 0, 0, 0.313) 10.1%, rgba(0, 0, 0, 0.401) 12.1%, rgba(0, 0, 0, 0.49) 14.6%, rgba(0, 0, 0, 0.578) 17.7%, rgba(0, 0, 0, 0.661) 21.8%, rgba(0, 0, 0, 0.74) 27.1%, rgba(0, 0, 0, 0.812) 33.9%, rgba(0, 0, 0, 0.875) 42.4%, rgba(0, 0, 0, 0.927) 53%, rgba(0, 0, 0, 0.966) 66%, rgba(0, 0, 0, 0.991) 81.5%, rgba(0, 0, 0, 0.991) 100%);
+  mask-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(3.3%, rgba(0, 0, 0, 0.068)), color-stop(5.9%, rgba(0, 0, 0, 0.145)), color-stop(8.1%, rgba(0, 0, 0, 0.227)), color-stop(10.1%, rgba(0, 0, 0, 0.313)), color-stop(12.1%, rgba(0, 0, 0, 0.401)), color-stop(14.6%, rgba(0, 0, 0, 0.49)), color-stop(17.7%, rgba(0, 0, 0, 0.578)), color-stop(21.8%, rgba(0, 0, 0, 0.661)), color-stop(27.1%, rgba(0, 0, 0, 0.74)), color-stop(33.9%, rgba(0, 0, 0, 0.812)), color-stop(42.4%, rgba(0, 0, 0, 0.875)), color-stop(53%, rgba(0, 0, 0, 0.927)), color-stop(66%, rgba(0, 0, 0, 0.966)), color-stop(81.5%, rgba(0, 0, 0, 0.991)), to(rgba(0, 0, 0, 0.991)));
+  mask-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.068) 3.3%, rgba(0, 0, 0, 0.145) 5.9%, rgba(0, 0, 0, 0.227) 8.1%, rgba(0, 0, 0, 0.313) 10.1%, rgba(0, 0, 0, 0.401) 12.1%, rgba(0, 0, 0, 0.49) 14.6%, rgba(0, 0, 0, 0.578) 17.7%, rgba(0, 0, 0, 0.661) 21.8%, rgba(0, 0, 0, 0.74) 27.1%, rgba(0, 0, 0, 0.812) 33.9%, rgba(0, 0, 0, 0.875) 42.4%, rgba(0, 0, 0, 0.927) 53%, rgba(0, 0, 0, 0.966) 66%, rgba(0, 0, 0, 0.991) 81.5%, rgba(0, 0, 0, 0.991) 100%);
+}
+
+.apple-blur2 {
+  display: block;
+  -webkit-backdrop-filter: saturate(190%) blur(60px);
+          backdrop-filter: saturate(190%) blur(60px);
+  position: absolute;
+  background-color: rgba(40, 40, 40, 0.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(3.3%, rgba(0, 0, 0, 0.068)), color-stop(5.9%, rgba(0, 0, 0, 0.145)), color-stop(8.1%, rgba(0, 0, 0, 0.227)), color-stop(10.1%, rgba(0, 0, 0, 0.313)), color-stop(12.1%, rgba(0, 0, 0, 0.401)), color-stop(14.6%, rgba(0, 0, 0, 0.49)), color-stop(17.7%, rgba(0, 0, 0, 0.578)), color-stop(21.8%, rgba(0, 0, 0, 0.661)), color-stop(27.1%, rgba(0, 0, 0, 0.74)), color-stop(33.9%, rgba(0, 0, 0, 0.812)), color-stop(42.4%, rgba(0, 0, 0, 0.875)), color-stop(53%, rgba(0, 0, 0, 0.927)), color-stop(66%, rgba(0, 0, 0, 0.966)), color-stop(81.5%, rgba(0, 0, 0, 0.991)), to(rgba(0, 0, 0, 0.991)));
+  -webkit-mask-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.068) 3.3%, rgba(0, 0, 0, 0.145) 5.9%, rgba(0, 0, 0, 0.227) 8.1%, rgba(0, 0, 0, 0.313) 10.1%, rgba(0, 0, 0, 0.401) 12.1%, rgba(0, 0, 0, 0.49) 14.6%, rgba(0, 0, 0, 0.578) 17.7%, rgba(0, 0, 0, 0.661) 21.8%, rgba(0, 0, 0, 0.74) 27.1%, rgba(0, 0, 0, 0.812) 33.9%, rgba(0, 0, 0, 0.875) 42.4%, rgba(0, 0, 0, 0.927) 53%, rgba(0, 0, 0, 0.966) 66%, rgba(0, 0, 0, 0.991) 81.5%, rgba(0, 0, 0, 0.991) 100%);
+  mask-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(3.3%, rgba(0, 0, 0, 0.068)), color-stop(5.9%, rgba(0, 0, 0, 0.145)), color-stop(8.1%, rgba(0, 0, 0, 0.227)), color-stop(10.1%, rgba(0, 0, 0, 0.313)), color-stop(12.1%, rgba(0, 0, 0, 0.401)), color-stop(14.6%, rgba(0, 0, 0, 0.49)), color-stop(17.7%, rgba(0, 0, 0, 0.578)), color-stop(21.8%, rgba(0, 0, 0, 0.661)), color-stop(27.1%, rgba(0, 0, 0, 0.74)), color-stop(33.9%, rgba(0, 0, 0, 0.812)), color-stop(42.4%, rgba(0, 0, 0, 0.875)), color-stop(53%, rgba(0, 0, 0, 0.927)), color-stop(66%, rgba(0, 0, 0, 0.966)), color-stop(81.5%, rgba(0, 0, 0, 0.991)), to(rgba(0, 0, 0, 0.991)));
+  mask-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.068) 3.3%, rgba(0, 0, 0, 0.145) 5.9%, rgba(0, 0, 0, 0.227) 8.1%, rgba(0, 0, 0, 0.313) 10.1%, rgba(0, 0, 0, 0.401) 12.1%, rgba(0, 0, 0, 0.49) 14.6%, rgba(0, 0, 0, 0.578) 17.7%, rgba(0, 0, 0, 0.661) 21.8%, rgba(0, 0, 0, 0.74) 27.1%, rgba(0, 0, 0, 0.812) 33.9%, rgba(0, 0, 0, 0.875) 42.4%, rgba(0, 0, 0, 0.927) 53%, rgba(0, 0, 0, 0.966) 66%, rgba(0, 0, 0, 0.991) 81.5%, rgba(0, 0, 0, 0.991) 100%);
+}
+
 .apple-bg {
   background: rgb(251, 251, 253);
 }
@@ -19,15 +70,20 @@
 .apple-heading {
   font-size: 24px;
   font-weight: 700;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .apple-subtitle {
   font-size: 20px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
   color: rgb(143, 140, 146);
+}
+
+.apple-about {
+  background: #f0f0f3;
+  padding: 25px;
 }
 
 .apple-text-small {
@@ -35,26 +91,102 @@
   color: white;
 }
 
-.apple-list-horizontal {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
-  margin-top: 15px;
-}
-.apple-list-horizontal .apple-cat {
-  margin-top: 10px;
+.apple-cat {
   color: rgb(134, 133, 138);
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.5px;
 }
-.apple-list-horizontal .apple-title {
+
+.apple-title {
   font-size: 18px;
   color: black;
   font-weight: 600;
 }
-.apple-list-horizontal .apple-content {
+
+.apple-content {
   font-size: 16px;
   color: rgb(136, 135, 141);
+  max-height: 75px;
+  overflow: hidden;
+}
+
+.apple-metadata {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+.apple-metadata span {
+  color: rgba(0, 0, 0, 0.56);
+  margin-right: 10px;
+}
+
+.apple-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  margin-bottom: 30px;
+}
+.apple-box li {
+  margin-top: 15px;
+  margin-right: 3%;
+  width: 30%;
+  background-color: white;
+  padding: 14px 16px;
+  border-radius: 12px;
+  overflow: hidden;
+  max-height: 140px;
+}
+
+.apple-information dt {
+  margin: 0;
+  margin-top: 15px;
+}
+.apple-information dt {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.88);
+  font-weight: 500;
+}
+.apple-information dd {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.56);
+}
+
+.apple-headline {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.apple-headsub {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+}
+
+.apple-text {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.apple-divider {
+  margin: 0 auto;
+  width: calc(100% - 50px);
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.15);
+}
+
+.apple-list-horizontal {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  margin-top: 15px;
 }
 .apple-list-horizontal .apple-card-circle {
   display: -webkit-box;
@@ -69,8 +201,7 @@
   overscroll-behavior-x: none;
   -ms-scroll-snap-type: x mandatory;
       scroll-snap-type: x mandatory;
-  padding: 15px;
-  padding-top: 0;
+  padding: 0 25px;
 }
 .apple-list-horizontal .apple-card-circle li {
   list-style: none;
@@ -109,8 +240,11 @@
   overscroll-behavior-x: none;
   -ms-scroll-snap-type: x mandatory;
       scroll-snap-type: x mandatory;
-  padding: 15px;
-  padding-top: 0;
+  padding: 0px 25px;
+}
+.apple-list-horizontal .apple-card-image a {
+  display: block;
+  margin-bottom: 10px;
 }
 .apple-list-horizontal .apple-card-image.large li {
   min-width: 350px;
@@ -172,39 +306,122 @@
   margin-top: -80px;
   position: relative;
   z-index: 8;
-  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(10%, rgb(0, 0, 0)));
-  -webkit-mask-image: linear-gradient(transparent 0%, rgb(0, 0, 0) 10%);
-  background-color: rgba(30, 30, 30, 0.3);
   z-index: 1;
 }
 .apple-introbroad .group-introbroad .broad-logo {
+  position: relative;
+  z-index: 1;
   color: white;
   font-size: 34px;
   padding: 10px 0;
 }
 .apple-introbroad .group-introbroad .broad-des {
+  position: relative;
+  z-index: 1;
   font-size: 28px;
   color: white;
 }
 .apple-introbroad .group-introbroad .broad-subtitle {
+  position: relative;
+  z-index: 1;
   color: rgba(255, 255, 255, 0.64);
   font-size: 26px;
   padding: 10px 0;
 }
-.apple-introbroad .group-introbroad .apple-button {
-  font-weight: 700;
-  border-radius: 8px;
-  background: white;
-  outline: none;
-  min-width: 300px;
-  max-width: 80%;
-  margin: 10px 0;
-  padding: 15px;
-  font-size: 24px;
-  border: none;
-}
 .apple-introbroad .group-introbroad .apple-text-small {
+  position: relative;
+  z-index: 1;
   font-size: 26px;
+  margin-top: 10px;
+}
+
+.apple-details-movie {
+  position: relative;
+}
+.apple-details-movie .intro-header img {
+  width: 100%;
+}
+.apple-details-movie .intro-contents {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 30px 25px;
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+.apple-details-movie .intro-contents img {
+  width: 100%;
+}
+.apple-details-movie .intro-contents .entry-cat {
+  position: relative;
+  z-index: 1;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  margin: 10px 0;
+}
+.apple-details-movie .intro-contents .title-image {
+  max-width: 240px;
+  max-height: 60px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.apple-details-movie .intro-contents .entry-title {
+  position: relative;
+  z-index: 1;
+}
+.apple-details-movie .intro-contents .entry-contents {
+  max-width: 750px;
+  margin: 0 auto;
+  margin-top: 15px;
+  position: relative;
+  z-index: 1;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.apple-modal-open {
+  border: none;
+  outline: none;
+  color: #007aff;
+  background: none;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.apple-modal button.close {
+  width: 15px;
+  height: 15px;
+  fill: rgb(60, 60, 67);
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  font-weight: bold;
+}
+.apple-modal .apple-wrapper {
+  padding: 30px;
+  padding-top: 50px;
+}
+.apple-modal .apple-subtitle {
+  padding: 0;
+  color: rgba(0, 0, 0, 0.56);
+  font-size: 12px;
+}
+.apple-modal .apple-text {
+  color: rgba(0, 0, 0, 0.88);
+  margin-top: 15px;
 }
 
 @media screen and (max-width: 768px) {
@@ -228,5 +445,15 @@
   }
   .apple-introbroad .group-introbroad .apple-text-small {
     font-size: 16px;
+  }
+  .apple-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .apple-box li {
+    width: 100%;
+    max-height: 100% !important;
   }
 }

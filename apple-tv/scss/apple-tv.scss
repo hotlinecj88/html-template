@@ -8,19 +8,69 @@
    transform: rotate(-45deg);
 }
 
+.apple-button{
+   font-weight: 600;
+   border-radius: 8px;
+   background: white;
+   outline: none;
+   width: 220px;
+   padding: 10px 16px;
+   font-size: 18px;
+   border: none;
+   position: relative;
+   z-index: 1;
+}
+
+.apple-blur{
+   display: block;
+   backdrop-filter: saturate(190%) blur(60px);
+   position: absolute;
+   background-color: rgba(0, 0, 0, 0.8);
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   -webkit-mask-image: linear-gradient(to bottom,transparent,rgba(0,0,0,.068) 3.3%,rgba(0,0,0,.145) 5.9%,rgba(0,0,0,.227) 8.1%,rgba(0,0,0,.313) 10.1%,rgba(0,0,0,.401) 12.1%,rgba(0,0,0,.49) 14.6%,rgba(0,0,0,.578) 17.7%,rgba(0,0,0,.661) 21.8%,rgba(0,0,0,.74) 27.1%,rgba(0,0,0,.812) 33.9%,rgba(0,0,0,.875) 42.4%,rgba(0,0,0,.927) 53%,rgba(0,0,0,.966) 66%,rgba(0,0,0,.991) 81.5%,rgba(0,0,0,.991) 100%);
+   mask-image: linear-gradient(to bottom,transparent,rgba(0,0,0,.068) 3.3%,rgba(0,0,0,.145) 5.9%,rgba(0,0,0,.227) 8.1%,rgba(0,0,0,.313) 10.1%,rgba(0,0,0,.401) 12.1%,rgba(0,0,0,.49) 14.6%,rgba(0,0,0,.578) 17.7%,rgba(0,0,0,.661) 21.8%,rgba(0,0,0,.74) 27.1%,rgba(0,0,0,.812) 33.9%,rgba(0,0,0,.875) 42.4%,rgba(0,0,0,.927) 53%,rgba(0,0,0,.966) 66%,rgba(0,0,0,.991) 81.5%,rgba(0,0,0,.991) 100%);
+}
+
+.apple-blur2{
+   display: block;
+   backdrop-filter: saturate(190%) blur(60px);
+   position: absolute;
+   background-color: rgba(40, 40, 40, 0.5);
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   -webkit-mask-image: linear-gradient(to bottom,transparent,rgba(0,0,0,.068) 3.3%,rgba(0,0,0,.145) 5.9%,rgba(0,0,0,.227) 8.1%,rgba(0,0,0,.313) 10.1%,rgba(0,0,0,.401) 12.1%,rgba(0,0,0,.49) 14.6%,rgba(0,0,0,.578) 17.7%,rgba(0,0,0,.661) 21.8%,rgba(0,0,0,.74) 27.1%,rgba(0,0,0,.812) 33.9%,rgba(0,0,0,.875) 42.4%,rgba(0,0,0,.927) 53%,rgba(0,0,0,.966) 66%,rgba(0,0,0,.991) 81.5%,rgba(0,0,0,.991) 100%);
+   mask-image: linear-gradient(to bottom,transparent,rgba(0,0,0,.068) 3.3%,rgba(0,0,0,.145) 5.9%,rgba(0,0,0,.227) 8.1%,rgba(0,0,0,.313) 10.1%,rgba(0,0,0,.401) 12.1%,rgba(0,0,0,.49) 14.6%,rgba(0,0,0,.578) 17.7%,rgba(0,0,0,.661) 21.8%,rgba(0,0,0,.74) 27.1%,rgba(0,0,0,.812) 33.9%,rgba(0,0,0,.875) 42.4%,rgba(0,0,0,.927) 53%,rgba(0,0,0,.966) 66%,rgba(0,0,0,.991) 81.5%,rgba(0,0,0,.991) 100%);
+}
+
 .apple-bg{ background: rgb(251, 251, 253); }
 
 .apple-heading{
    font-size: 24px;
    font-weight: 700;
-   padding-left: 15px;
-   padding-right: 15px;
+   padding-left: 25px;
+   padding-right: 25px;
 }
 .apple-subtitle{
    font-size: 20px;
-   padding-left: 15px;
-   padding-right: 15px;
+   padding-left: 25px;
+   padding-right: 25px;
    color: rgb(143, 140, 146);
+}
+
+.apple-about{
+   background: #f0f0f3;
+   padding: 25px;
 }
 
 .apple-text-small{
@@ -28,29 +78,88 @@
    color: white;
 }
 
+.apple-cat{
+   color: rgb(134, 133, 138);
+   font-weight: 500;
+   font-size: 16px;
+   letter-spacing: 0.5px;
+}
+.apple-title{
+   font-size: 18px;
+   color: black;
+   font-weight: 600;
+}
+.apple-content{
+   font-size: 16px;
+   color: rgb(136, 135, 141);
+   max-height: 75px;
+   overflow: hidden;
+}
+.apple-metadata{
+   display: flex;
+   flex-flow: row nowrap;
+   span{
+      color: rgba(0, 0, 0, 0.56);
+      margin-right: 10px;
+   }
+}
 
+.apple-box{
+	display: flex;
+	flex-flow: row nowrap;
+	margin-bottom: 30px;
+	li{
+      margin-top: 15px;
+      margin-right: 3%;
+		width: 30%;
+		background-color: white;
+		padding: 14px 16px;
+		border-radius: 12px;
+		overflow: hidden;
+      max-height: 140px;
+	}
+}
+
+.apple-information{
+   dt{
+      margin: 0;
+      margin-top: 15px;
+   }
+   dt{
+      font-size: 12px;
+      color: rgba(0, 0, 0, 0.88);
+      font-weight: 500;
+   }
+   dd{
+      font-size: 12px;
+      color: rgba(0, 0, 0, 0.56);
+   }
+}
+
+.apple-headline{
+	font-size: 16px;
+   font-weight: 700;
+}
+.apple-headsub{
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 12px;
+}
+.apple-text{
+	color: rgba(0, 0, 0, 0.5);
+   font-size: 14px;
+   line-height: 1.5;
+   margin: 0;
+}
+
+.apple-divider{
+   margin: 0 auto;
+   width: calc( 100% - 50px);
+   border-bottom: 0.5px solid rgba(0, 0, 0, 0.15);
+}
 // APPLE CARD HORIZONTAL
 .apple-list-horizontal{
-   
    box-sizing: content-box;
    margin-top: 15px;
-
-   .apple-cat{
-      margin-top: 10px;
-      color: rgb(134, 133, 138);
-      font-weight: 500;
-      font-size: 16px;
-      letter-spacing: 0.5px;
-   }
-   .apple-title{
-      font-size: 18px;
-      color: black;
-      font-weight: 600;
-   }
-   .apple-content{
-      font-size: 16px;
-      color: rgb(136, 135, 141);
-   }
 
    .apple-card-circle{
       display: flex;
@@ -59,8 +168,7 @@
       scroll-behavior: smooth;
       overscroll-behavior-x: none;
       scroll-snap-type: x mandatory;
-      padding: 15px;
-      padding-top: 0;
+      padding: 0 25px;
 
       li{
          list-style: none;
@@ -92,13 +200,15 @@
       scroll-behavior: smooth;
       overscroll-behavior-x: none;
       scroll-snap-type: x mandatory;
-      padding: 15px;
-      padding-top: 0;
+      padding: 0px 25px;
+
+      a{
+         display: block;
+         margin-bottom: 10px;
+      }
 
       &.large{
-         li{
-            min-width: 350px;
-         }
+         li{ min-width: 350px; }
       }
 
       li{
@@ -111,7 +221,6 @@
       }
 
       img{
-         // padding-top: 56%;
          box-shadow: 0 4px 7px rgba(0,0,0,0.25);
          width: 100%;
          height: 100%;
@@ -126,8 +235,7 @@
 	flex-flow: column nowrap;
 	background: black;
 	padding-bottom: 40px;
-
-	
+   
 	.group-image{
 		display: flex;
 		flex-flow: row wrap;
@@ -149,48 +257,134 @@
 		margin-top: -80px;
 		position: relative;
 		z-index: 8;
-		-webkit-mask-image: linear-gradient(transparent 0%, rgb(0, 0, 0) 10%);
+		// -webkit-mask-image: linear-gradient(transparent 0%, rgb(0, 0, 0) 10%);
 		// -webkit-mask-size: 100% 100%;
 		// -webkit-mask-repeat: no-repeat;
-		background-color: rgba(30, 30, 30, 0.3);
+		// background-color: rgba(30, 30, 30, 0.3);
 		// backdrop-filter: blur(30px) saturate(70%);
 		z-index: 1;
 		
 		.broad-logo{
+         position: relative; z-index: 1;
 			color: white;
 			font-size: 34px;
 			padding: 10px 0;
 		}
 		.broad-des{
+         position: relative; z-index: 1;
 			font-size: 28px;
 			color: white;
 		}
 		.broad-subtitle{
+         position: relative; z-index: 1;
 			color: rgba(255, 255, 255, 0.64);
 			font-size: 26px;
 			padding: 10px 0;
 		}
 		
-		.apple-button{
-			font-weight: 700;
-			border-radius: 8px;
-			background: white;
-			outline: none;
-			min-width: 300px;
-			max-width: 80%;
-			margin: 10px 0;
-			padding: 15px;
-			font-size: 24px;
-			border: none;
-		}
-		
 		.apple-text-small{
+         position: relative; z-index: 1;
 			font-size: 26px;
+         margin-top: 10px;
 		}
 
+	}	
+}
+
+.apple-details-movie{
+	position: relative;
+	
+	.intro-header{
+		img{
+			width: 100%;
+		}
+	}
+	.intro-contents{
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		padding: 30px 25px;
+      padding-top: 60px;
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: center;
+		align-items: center;
+		margin: 0 auto;
+		
+		img{
+			width: 100%;
+		}
+		
+		
+		.entry-cat{
+			position: relative;
+			z-index: 1;
+			color: rgba(255, 255, 255, 0.80);
+			font-size: 14px;
+         margin: 10px 0;
+		}
+		
+		.title-image{
+			max-width: 240px;
+			max-height: 60px;
+			object-fit: contain;
+		}
+		
+		.entry-title{
+			position: relative;
+			z-index: 1;
+		}
+		
+		.entry-contents{
+         max-width: 750px;
+         margin: 0 auto;
+         margin-top: 15px;
+			position: relative;
+			z-index: 1;
+			color: rgba(255, 255, 255, 0.80);
+		}
+
+      
 	}
 	
+}
+
+.apple-modal-open{
+   border: none;
+   outline: none;
+   color: #007aff;
+   background: none;
+   line-height: 1.0;
+   font-weight: 600;
+}
+
+.apple-modal{
+	button.close{
+		width: 15px;
+		height: 15px;
+		fill: rgba(60, 60, 67, 1.0);
+		position: absolute;
+		top: 18px;
+		left: 18px;
+		font-weight: bold;
+	}
 	
+	.apple-wrapper{
+		padding: 30px;
+		padding-top: 50px;
+	}
+	
+	.apple-subtitle{
+		padding: 0;
+		color: rgba(0, 0, 0, 0.56);
+		font-size: 12px;
+	}
+
+	.apple-text{
+		color: rgba(0, 0, 0, 0.88);
+		margin-top: 15px;
+	}
 }
 
 @media screen and (max-width: 768px){
@@ -223,6 +417,15 @@
          .apple-text-small{
             font-size: 16px;
          }
+      }
+   }
+
+   .apple-box{
+      flex-flow: column nowrap;
+
+      li{
+         width: 100%;
+         max-height: 100% !important;
       }
    }
 
