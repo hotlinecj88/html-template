@@ -1,0 +1,233 @@
+*, *:after, *:before{margin: 0; padding: 0;}
+
+.apple-arrow-right{
+   border: solid rgb(136, 136, 141);
+   border-width: 0 4px 4px 0;
+   display: inline-block;
+   padding: 5px;
+   transform: rotate(-45deg);
+}
+
+.apple-bg{ background: rgb(251, 251, 253); }
+
+.apple-heading{
+   font-size: 24px;
+   font-weight: 700;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+.apple-subtitle{
+   font-size: 20px;
+   padding-left: 15px;
+   padding-right: 15px;
+   color: rgb(143, 140, 146);
+}
+
+.apple-text-small{
+   font-size: 16px;
+   color: white;
+}
+
+
+// APPLE CARD HORIZONTAL
+.apple-list-horizontal{
+   
+   box-sizing: content-box;
+   margin-top: 15px;
+
+   .apple-card-circle{
+      display: flex;
+      flex-flow: row nowrap;
+      overflow: auto hidden;
+      scroll-behavior: smooth;
+      overscroll-behavior-x: none;
+      scroll-snap-type: x mandatory;
+      padding: 15px;
+      padding-top: 0;
+
+      li{
+         list-style: none;
+         margin-right: 3%;
+		   padding: 15px 0px;
+
+         a{
+            width: 140px;
+            height: 140px;
+            display: block;
+         }
+
+         img{
+            width: 100%;
+            height: 100%;
+            border-radius: 100%;
+            object-fit: cover;
+         }
+      }
+
+   }
+
+   .apple-card-image{
+      display: flex;
+      flex-flow: row nowrap;
+      overflow: auto hidden;
+      scroll-behavior: smooth;
+      overscroll-behavior-x: none;
+      scroll-snap-type: x mandatory;
+      padding: 15px;
+      padding-top: 0;
+
+      &.large{
+         li{
+            min-width: 350px;
+         }
+      }
+
+      li{
+         list-style: none;
+         min-width: 300px;
+         margin-right: 3%;
+		   padding: 15px 0px;
+      }
+
+      // .overlay{
+      //    position: relative;
+      //    background: grey;
+		//    box-shadow: 0 4px 7px rgba(0,0,0,0.25);
+      //    padding-top: 56%;
+      //    border-radius: 12px;
+      //    overflow: hidden;
+      // }
+
+      // img{
+      //    position: absolute;
+      //    top: 0; left: 0;
+      //    width: 100%;
+      //    height: 100%;
+      //    border-radius: 12px;
+      //    overflow: hidden;
+      // }
+      .overlay{
+         // position: relative;
+         // background: grey;
+		   // box-shadow: 0 4px 7px rgba(0,0,0,0.25);
+         // border-radius: 12px;
+         // overflow: hidden;
+      }
+
+      img{
+         // padding-top: 56%;
+         box-shadow: 0 4px 7px rgba(0,0,0,0.25);
+         width: 100%;
+         height: 100%;
+         border-radius: 12px;
+         overflow: hidden;
+      }
+   }
+}
+
+.apple-introbroad{
+	display: flex;
+	flex-flow: column nowrap;
+	background: black;
+	padding-bottom: 40px;
+
+	
+	.group-image{
+		display: flex;
+		flex-flow: row wrap;
+		
+		.image{
+			width: calc( 100% / 3);
+			height: 20vw;
+		}
+		
+		img{
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+	
+	.group-introbroad{
+		text-align: center;
+		margin-top: -80px;
+		position: relative;
+		z-index: 8;
+		-webkit-mask-image: linear-gradient(transparent 0%, rgb(0, 0, 0) 10%);
+		// -webkit-mask-size: 100% 100%;
+		// -webkit-mask-repeat: no-repeat;
+		background-color: rgba(30, 30, 30, 0.3);
+		// backdrop-filter: blur(30px) saturate(70%);
+		z-index: 1;
+		
+		.broad-logo{
+			color: white;
+			font-size: 34px;
+			padding: 10px 0;
+		}
+		.broad-des{
+			font-size: 28px;
+			color: white;
+		}
+		.broad-subtitle{
+			color: rgba(255, 255, 255, 0.64);
+			font-size: 26px;
+			padding: 10px 0;
+		}
+		
+		.apple-button{
+			font-weight: 700;
+			border-radius: 8px;
+			background: white;
+			outline: none;
+			min-width: 300px;
+			max-width: 80%;
+			margin: 10px 0;
+			padding: 15px;
+			font-size: 24px;
+			border: none;
+		}
+		
+		.apple-text-small{
+			font-size: 26px;
+		}
+
+	}
+	
+	
+}
+
+@media screen and (max-width: 768px){
+   .apple-list-horizontal {
+      .apple-card-image {
+         li{
+            min-width: 200px;
+         }
+         &.large{
+            li{
+               min-width: 250px;
+            }
+         }
+      }
+   }
+   .apple-introbroad{
+      .group-introbroad{
+         .broad-logo{
+            font-size: 24px;  
+         }
+         .broad-des{
+            font-size: 18px;
+         }
+         .broad-subtitle{
+            font-size: 16px;
+         }
+         .apple-button{
+            font-size: 18px;
+         }
+         .apple-text-small{
+            font-size: 16px;
+         }
+      }
+   }
+
+}
