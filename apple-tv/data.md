@@ -39,3 +39,10 @@ https://is3-ssl.mzstatic.com/image/thumb/Features126/v4/46/99/d1/4699d196-ba0a-1
 https://is1-ssl.mzstatic.com/image/thumb/Features113/v4/ed/b0/74/edb07418-f12a-3fcd-6d18-bd6842c06654/bce86c88-7dc4-4f6e-a6d7-fa9d21387727.lsr/1478x832fe.webp
 https://is3-ssl.mzstatic.com/image/thumb/Features126/v4/fb/de/ef/fbdeef95-b5b7-ae53-c054-b5a38caceb08/70b42c7d-256c-4d57-ba59-ce54389a9e16.lsr/1478x832fe.webp
 https://is3-ssl.mzstatic.com/image/thumb/Features113/v4/40/04/a9/4004a9c6-ce84-79ac-ecb0-9d84fb7902be/cbe7b12d-a34d-41e8-b223-17eceeea03f7.lsr/1478x832fe.webp
+
+
+https://is2-ssl.mzstatic.com/image/thumb/ERFJ4_LyiMQLdRufBQSSRQ/492x492ve.webp
+https://is4-ssl.mzstatic.com/image/thumb/G0ae_gKG3PqshCOf2ltsxg/492x492ve.webp
+https://is4-ssl.mzstatic.com/image/thumb/TKeT0JAV--69xaWXWlyrXg/492x492bb.webp
+https://is3-ssl.mzstatic.com/image/thumb/qFkD16x9xmzFDb71nD2FpQ/492x492ve.webp
+https://is1-ssl.mzstatic.com/image/thumb/eWCjbW4M0OW7SxdsH-ufNQ/492x492ve.webp

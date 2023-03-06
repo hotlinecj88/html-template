@@ -19,6 +19,14 @@
    border: none;
    position: relative;
    z-index: 1;
+   text-align: center;
+   color: black;
+   text-decoration: none;
+}
+
+.apple-button:hover{
+   text-decoration: none;
+   color: black;
 }
 
 .apple-blur{
@@ -156,10 +164,11 @@
    width: calc( 100% - 50px);
    border-bottom: 0.5px solid rgba(0, 0, 0, 0.15);
 }
+
 // APPLE CARD HORIZONTAL
 .apple-list-horizontal{
    box-sizing: content-box;
-   margin-top: 15px;
+   padding: 20px 0;
 
    .apple-card-circle{
       display: flex;
@@ -176,16 +185,18 @@
 		   padding: 15px 0px;
          display: flex;
          flex-flow: column nowrap;
+         align-items: center;
+         justify-content: center;
 
          a{
-            width: 140px;
-            height: 140px;
+            text-decoration: none;
             display: block;
+            text-align: center;
          }
 
          img{
-            width: 100%;
-            height: 100%;
+            width: 140px;
+            height: 140px;
             border-radius: 100%;
             object-fit: cover;
          }
@@ -387,6 +398,10 @@
 	}
 }
 
+@import 'apple-form.scss';
+@import 'apple-profile.scss';
+@import 'apple-search.scss';
+
 @media screen and (max-width: 768px){
    .apple-list-horizontal {
       .apple-card-image {
@@ -428,5 +443,13 @@
          max-height: 100% !important;
       }
    }
+
+
+   .apple-search {
+      .apple-group-card{
+         grid-template-columns: auto auto;
+      }
+   }
+
 
 }
