@@ -225,9 +225,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 .apple-list-horizontal .apple-card-circle li a {
   text-decoration: none;
@@ -438,6 +438,10 @@
   margin-top: 15px;
 }
 
+.mb15 {
+  margin-bottom: 15px;
+}
+
 .form-container {
   background: #f1f1f1;
   height: 100vh;
@@ -547,7 +551,7 @@
   margin-bottom: 15px;
 }
 .apple-search .apple-group-card a {
-  height: 180px;
+  height: 16vw;
   position: relative;
   overflow: hidden;
   border-radius: 8px;
@@ -586,6 +590,16 @@
   .apple-list-horizontal .apple-card-image.large li {
     min-width: 250px;
   }
+  .apple-list-horizontal .apple-card-circle li img {
+    width: 100px;
+    height: 100px;
+  }
+  .apple-list-horizontal .apple-card-circle li .apple-title {
+    font-size: 16px;
+  }
+  .apple-list-horizontal .apple-card-circle li .apple-cat {
+    font-size: 14px;
+  }
   .apple-introbroad .group-introbroad .broad-logo {
     font-size: 24px;
   }
@@ -614,5 +628,8 @@
   .apple-search .apple-group-card {
     -ms-grid-columns: auto auto;
     grid-template-columns: auto auto;
+  }
+  .apple-search .apple-group-card a {
+    height: 25vw;
   }
 }

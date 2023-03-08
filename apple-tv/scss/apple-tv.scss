@@ -186,7 +186,7 @@
          display: flex;
          flex-flow: column nowrap;
          align-items: center;
-         justify-content: center;
+         justify-content: flex-start;
 
          a{
             text-decoration: none;
@@ -398,6 +398,8 @@
 	}
 }
 
+.mb15{ margin-bottom: 15px;}
+
 @import 'apple-form.scss';
 @import 'apple-profile.scss';
 @import 'apple-search.scss';
@@ -414,7 +416,25 @@
             }
          }
       }
+      .apple-card-circle{
+          li {
+            img{
+               width: 100px;
+               height: 100px;
+            }
+
+            .apple-title{
+               font-size: 16px;
+            }
+            .apple-cat{
+               font-size: 14px;
+            }
+          }
+      }
    }
+
+   
+
    .apple-introbroad{
       .group-introbroad{
          .broad-logo{
@@ -448,6 +468,9 @@
    .apple-search {
       .apple-group-card{
          grid-template-columns: auto auto;
+         a{
+            height: 25vw;
+         }
       }
    }
 
